@@ -1,0 +1,32 @@
+{
+  "name": "fsd-exp-1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "msw": "^2.15.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^8.0.2",
+    "@babel/preset-react": "^8.0.1",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.5",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
+    "babel-jest": "^30.4.1",
+    "jest": "^30.4.2",
+    "jest-environment-jsdom": "^30.4.1",
+    "oxlint": "^1.71.0",
+    "vite": "^8.1.1"
+  }
+}
